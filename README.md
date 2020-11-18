@@ -47,8 +47,8 @@ nomad job stop -purge jobname
 ```
 ## Get job status
 ```bash
-nomad status job
-nomad status -evals job
+nomad job status jobname
+nomad job status -evals jobname
 ```
 ## Get evaluation status
 ```bash
