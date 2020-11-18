@@ -43,6 +43,7 @@ nomad plan jobname or jobfile
 nomad run jobname or jobfile
 nomad stop jobname or jobfile
 nomad job stop -detach jobname or jobfile
+nomad job stop -purge jobname
 ```
 ## Get job status
 ```bash
