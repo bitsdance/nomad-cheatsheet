@@ -6,6 +6,14 @@ This is nomad cheat sheet, I use nomad in my current project and did not find an
 
 https://www.nomadproject.io/downloads
 
+```bash
+# install the Nomad binary
+wget https://releases.hashicorp.com/nomad/0.12.9/nomad_0.12.9_linux_amd64.zip -O nomad.zip
+unzip -o nomad.zip
+sudo chown root:root nomad
+sudo mv -fv nomad /usr/sbin/
+```
+
 ## Connect remotely to nomad
 
 export NOMAD_ADDR="http://192.168.99.100:4646"
